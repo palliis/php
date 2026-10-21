@@ -21,6 +21,7 @@ permissions:
 jobs:
 
   generate-jobs:
+    if: github.repository == 'docker-library/php'
     name: Generate Jobs
     runs-on: ubuntu-latest
     outputs:

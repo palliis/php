@@ -11,6 +11,7 @@ defaults:
 
 jobs:
   apply-templates:
+    if: github.repository == 'docker-library/php'
     name: Check For Uncomitted Changes
     runs-on: ubuntu-latest
     steps:
