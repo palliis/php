@@ -1,3 +1,12 @@
+# Palliis PHP images
+
+This fork publishes Palliis PHP FPM builds to `ghcr.io/palliis/php` for native
+amd64 and arm64 runners. Start with the **[build and maintenance runbook](FPM-TRIXIE.md)**
+for CI rebuilds, future PHP updates, local emergency builds, GHCR access, and
+downstream rollout verification. The runbook covers both Trixie and Alpine.
+
+These are Palliis builds. The upstream Docker Official Image information follows.
+
 # https://github.com/docker-library/php
 
 ## Maintained by: [the Docker Community](https://github.com/docker-library/php)
